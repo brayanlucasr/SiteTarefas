@@ -1,7 +1,43 @@
-
+body{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    flex-flow: column;
+    align-items: center;
+    background-color: rgb(211, 179, 241);
+}
 .titulo{
-    color: red;
+    color: blue;
     text-align: center;
     font-size: 90px;
     font-weight: bold;
+}
+
+.list{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    text-align: center;
+    width: 500px;
+    margin-top: 30px;
+}
+
+.item{
+    color: black;
+    border: 1px solid black;
+    border-radius: 6px;
+    padding: 4px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff;
+    margin-top: 2px;
+}
+
+.checkbox{
+    width: 20px;
+    height: 20px;
+}
+
+.text{
+    border-radius: 6px;
 }
