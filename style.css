@@ -4,7 +4,7 @@ body{
     justify-content: center;
     flex-flow: column;
     align-items: center;
-    background-color: rgb(211, 179, 241);
+    background-color: #FAF0E6;
 }
 .titulo{
     color: blue;
